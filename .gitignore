@@ -1,3 +1,5 @@
-.idea/
-/src/public/.idea/
-/src/public/vendor/
+/.idea/
+/code/app/cache/*
+/code/app/logs/*
+/code/bin/*
+/code/vendor/*
