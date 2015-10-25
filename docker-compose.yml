@@ -15,9 +15,7 @@ php:
   links:
     - db
 db:
-  image: sameersbn/mysql
-  volumes:
-   - /var/lib/mysql
+  image: sf-docker/mysql
   environment:
    - DB_NAME=demoDb
    - DB_USER=demoUser
